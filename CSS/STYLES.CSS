@@ -1,0 +1,131 @@
+.ItemStyle {
+                   font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                   font-size: 10px;
+                   vertical-align: middle;
+                   background-repeat: no-repeat;
+                   color: #00000f;
+}
+
+.PopItemStyle {
+                         font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                         font-size: 10px;
+                         vertical-align: middle;
+                         background-repeat: no-repeat;
+                         color: #00000f;
+}
+
+.StyleTop {
+                 font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                 font-size:    24px;
+                 font-weight: bold;
+                 text-align: center;
+                 color: #00000f;
+ }
+
+.StyleTitle {
+                   font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                   font-size:    16px;
+                   font-weight: bold;
+                   text-align: center;
+                   color: #00000f;
+ }
+
+.StyleUnderScribe {
+                   font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                   font-size:    10px;
+                   font-weight: bold;
+                   text-align: center;
+                   color: #00000f;
+ }
+
+.StyleNormal {
+                      font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                      font-size:    14px;
+                      font-weight: normal;
+                      text-align: justify;
+                      text-indent: 12pt;
+                      color: #00000f;
+ }
+
+
+.StyleGlava {
+                      font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                      font-size:    14px;
+                      font-weight: bold;
+                      text-indent: 20pt;
+                      color: #00000f;
+ }
+
+.StyleParagraf {
+                         font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                         font-size: 14px;
+                         font-weight: bold;
+                         font-style: italic;
+                         text-indent: 20pt;
+                         color: #00000f;
+ }
+
+.StyleRules {
+                      font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                      font-size: 12px;
+                      text-decoration: underline;
+                      font-style: italic;
+                      color: #ff0000;
+ }
+
+.StyleOpred {
+                      font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                      font-size: 12px;
+                      font-weight: bold;
+                      font-style: italic;
+                      text-align: justify;
+                      text-indent: 12pt;
+                      line-height: 1;
+                      color: #00000f;
+ }
+
+.StyPodpis {
+                      font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+                      font-size: 16px;
+                      font-weight: bold;
+                      font-style: italic;
+                      text-align: justify;
+                      text-indent: 12pt;
+                      line-height: 1;
+                      text-align: right;
+                      color: #000000;
+ }
+.myStyle {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+}
+body {
+  SCROLLBAR-FACE-COLOR: #d0d0d0;      /* раскрашивает самую большую поверхность заданным цветом.  */
+  SCROLLBAR-HIGHLIGHT-COLOR: #f1f1f1; /* блик на ползунке и кубиках со стрелками */
+  SCROLLBAR-SHADOW-COLOR: #f1f1f1;    /* "тень" - продолжение "блика", (то же самое, только нижняя грань и правая */
+  SCROLLBAR-3DLIGHT-COLOR: #f1f1f1;   /* это тонюсенькая каемочка вокруг каждой детальки */
+  SCROLLBAR-ARROW-COLOR: #f1f1f1;     /* цвет треугольных стрелок вверху и внизу линейки */
+  SCROLLBAR-TRACK-COLOR: #f5f5f5;     /* цвет дорожки*/
+  SCROLLBAR-DARKSHADOW-COLOR: #000000;/* глубокая черная тень-контур */
+  background-color: #ffffff;          /* */
+  color: #ffff66;                     /* */
+  margin="1";                         /* */
+  FONT-WEIGHT: normal;                /* */
+  font-family: "Verdana", "Arial", "Helvetica", "sans-serif";  /* последовательность шрифтов, отображения содержимого сайта. Если нет первого, то используется второй. Если нет второго - то третий. Ну а если и четвертого нет, то это линукс сам выбирает*/
+}
+
+A:link {
+           color: #ffffff;;
+           text-decoration: none;
+           vertical-align: bottom;
+}
+
+A:visited {
+                text-decoration:none;
+                color: #00000f;		/* color: #666666; */
+}
+
+A:hover {
+               color: #0066ff;		/* color: #0066ff; */
+               text-decoration: none;
+}

@@ -1,0 +1,33 @@
+<html>
+<pre>      Условие
+В книге Source, на листе Source_List, в диапазоне A1:H10 задана Исходная таблица.
+Создать книгу Target с одним листом и именем Target_List.
+Анализируя 1-й столбец Исходной таблицы, переписать на лист Target_List книги Target в диапазон с левым верхним углом B3, те строки Исходной таблицы, 
+для которых значение анализируемой ячейки имеет фон «красный».
+Решение
+Sub Кнопка1_Щелчок()
+    MsgBox ("Задача1"
+    Application.SheetsInNewWorkbook = 1
+    Set ob1 = Workbooks.Add
+    ob1.SaveAs _
+	Filename:="E:\ИСиТ -17\Мурашко_А.М\2сем_УчКомПр\2_сем УчКомПр Решение VBA&Excel\VBA&Excel_01\Target.xls", _
+    FileFormat:=xlNormal, Password:="", _
+    WriteResPassword:="", ReadOnlyRecommended:=False, _
+    CreateBackup:=False
+    ob1.Worksheets(1).Name = "Target_List"
+    Workbooks("Source.xlsm").Activate
+    Set ob2 = Workbooks("Source.xlsm").Worksheets("Source_List")
+    ob2.Activate
+        k = 3
+        For i = 1 To 10
+            If (ob2.Cells(i, 1).Interior.ColorIndex = 3) Then
+                MsgBox ("Work2")
+                Range(Cells(i, 1), Cells(i, 10)).Copy _
+                Destination:=ob1.Worksheets("Target_List").Cells(k, 2)
+                k = k + 1
+            End If
+        Next i
+End Sub
+</pre>
+  </body>
+</html>
